@@ -1,0 +1,193 @@
+﻿body 
+{
+	font-family: Arial, sans-serif;
+	background-color:#383838;
+	padding: 40px;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.site 
+{
+	background-color: #535353;
+	max-width: 1000px;
+	margin-bottom: 100px;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+h1 
+{
+ 	margin: 0 0 40px;
+	color: white;
+	font-size:30px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	font-variant:normal;
+ }
+
+ h2, h3, h4, h5, h6 
+{
+	margin: 0 0 26px;
+	color: #fd5800;
+	display: block;
+	font-size:23px;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+p 
+{
+	margin-bottom: 26px;
+	color: #FFFFFF;
+	text-align: justify;
+  	text-justify: inter-word;
+  	font-size:16px;
+}
+ol li, dl dt, dl dd{ color: #FFFFFF;}
+
+ol li {list-style-type:lower-roman;}
+
+.bold {
+font-weight: bold;
+color: #fd5800;
+}
+
+.italic {
+font-style: italic;
+}
+p:last-child 
+{
+	margin-bottom: 0;
+}
+
+.site-header 
+{
+	padding: 30px;
+	text-align: center;
+	margin-top: -9px;
+	padding-right: 20px;
+	padding-left: 30px;
+	font-size: 14px;
+	color: white;
+}
+
+.site-title 
+{
+	margin: 0 0 10px;
+}
+
+@media (min-width: 800px) 
+{
+.site-title 
+{
+	float: left;
+}
+}
+
+.site-navigation ul
+{
+	list-style-type: none;
+	margin-top: -10px;	
+	margin-right: -5px;
+	margin-left: 20px;
+	margin-bottom: 15px;
+}
+
+.site-navigation li
+{
+	background-color:#fd5800;
+	color: white;
+	padding: 8px 38px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.site-navigation a 
+{
+	display: block;
+	text-decoration: none;
+	font-weight: 700;
+	color:white;
+}
+
+.site-navigation a:hover 
+{
+	color: #4cacbe;
+}
+
+@media (min-width: 800px) 
+{
+.site-navigation 
+{
+	float: right;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #808080;
+}
+
+.content-wrapper 
+{
+	padding: 40px;
+}
+
+.site-footer 
+{
+	background-color: #fd5800;/*applies a background colour to the footer*/
+	overflow: hidden;
+	padding: 50px;
+}
+
+.site-footer p.linked {
+	background: url("../images/linkedin.png") no-repeat 65px 0; 
+	padding-right:30px
+}
+
+@media (min-width: 800px) 
+{
+.site-footer 
+{
+	clear: both;
+}
+
+.site footer p{
+margin: 5px 0;
+}
+
+/*Footer Link Styles*/
+.site-footer a:link, .site-footer a:active, .site-footer a:visited, .site-content a:link, .site-content a:active, .site-content a:visited {
+color: #FFF;
+text-decoration: none; /*removes the default understyle from a link*/
+
+}
+
+.site-footer a:hover, .site-content a:hover{
+text-decoration: underline;/*adds the understyle for a link when the user hovers over it*/
+
+
+}
+
+  
